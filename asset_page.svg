@@ -28,9 +28,9 @@
      inkscape:document-units="px"
      showborder="false"
      borderlayer="true"
-     inkscape:zoom="0.39152988"
-     inkscape:cx="1222.1289"
-     inkscape:cy="970.55172"
+     inkscape:zoom="0.78305976"
+     inkscape:cx="-107.91003"
+     inkscape:cy="710.0352"
      inkscape:window-width="1705"
      inkscape:window-height="1048"
      inkscape:window-x="846"
@@ -120,7 +120,7 @@
        xml:space="preserve"
        transform="matrix(0.76385259,0,0,0.76385259,180.59677,-178.12827)"
        id="text1"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1);fill:#ffffff;fill-opacity:1;stroke:#0e232e"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#ffffff;fill-opacity:1;stroke:#0e232e"
        sodipodi:insensitive="true"><tspan
          x="-362.67969"
          y="370.97899"
@@ -129,7 +129,7 @@
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-14.335511,7.7713311)"
        id="text2"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2);fill:#ffffff;fill-opacity:1;stroke:#0e232e"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#ffffff;fill-opacity:1;stroke:#0e232e"
        sodipodi:insensitive="true"><tspan
          x="-478.89062"
          y="98.969226"
@@ -246,7 +246,7 @@
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text14"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect14);fill:#000000;fill-opacity:1;stroke:none" />
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect14);display:inline;fill:#000000;fill-opacity:1;stroke:none" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -293,17 +293,201 @@
          y="164.21159">24/30</tspan></text>
     <path
        id="circle18"
-       style="fill:#b50000;stroke:#0e232e;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="m 68.29207,226.25869 a 79.375,79.375 0 0 0 -79.374999,79.375 79.375,79.375 0 0 0 79.374999,79.37499 79.375,79.375 0 0 0 79.37499,-79.37499 79.375,79.375 0 0 0 -79.37499,-79.375 z m 0,52.91666 A 26.458332,26.458332 0 0 1 94.750403,305.63369 26.458332,26.458332 0 0 1 68.29207,332.09202 26.458332,26.458332 0 0 1 41.833737,305.63369 26.458332,26.458332 0 0 1 68.29207,279.17535 Z"
-       inkscape:export-filename="circle_progress_full.png"
-       inkscape:export-xdpi="47.213116"
-       inkscape:export-ydpi="47.213116" />
+       style="fill:#b50000;stroke:#0e232e;stroke-width:0.650614;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m -125.52255,216.90591 a 19.518444,19.518444 0 0 0 -19.51845,19.51845 19.518444,19.518444 0 0 0 19.51845,19.51844 19.518444,19.518444 0 0 0 19.51844,-19.51844 19.518444,19.518444 0 0 0 -19.51844,-19.51845 z m 0,13.0123 a 6.5061477,6.5061477 0 0 1 6.50615,6.50615 6.5061477,6.5061477 0 0 1 -6.50615,6.50614 6.5061477,6.5061477 0 0 1 -6.50615,-6.50614 6.5061477,6.5061477 0 0 1 6.50615,-6.50615 z"
+       inkscape:export-filename="godot\circle_progress_full.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        id="path19"
-       style="fill:none;stroke:#0e232e;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       d="m -107.40759,226.25869 a 79.375,79.375 0 0 0 -79.375,79.375 79.375,79.375 0 0 0 79.375,79.37499 79.375,79.375 0 0 0 79.374998,-79.37499 79.375,79.375 0 0 0 -79.374998,-79.375 z m 0,52.91666 a 26.458332,26.458332 0 0 1 26.458337,26.45834 26.458332,26.458332 0 0 1 -26.458337,26.45833 26.458332,26.458332 0 0 1 -26.45833,-26.45833 26.458332,26.458332 0 0 1 26.45833,-26.45834 z"
-       inkscape:export-filename="circle_progress_empty.png"
-       inkscape:export-xdpi="47.213116"
-       inkscape:export-ydpi="47.213116" />
+       style="fill:#364e59;stroke:#0e232e;stroke-width:0.650616;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="m -169.44434,216.45706 a 19.518444,19.518442 0 0 0 -19.51845,19.51844 19.518444,19.518442 0 0 0 19.51845,19.51844 19.518444,19.518442 0 0 0 19.51844,-19.51844 19.518444,19.518442 0 0 0 -19.51844,-19.51844 z m 0,13.01229 a 6.5061476,6.506147 0 0 1 6.50614,6.50615 6.5061476,6.506147 0 0 1 -6.50614,6.50615 6.5061476,6.506147 0 0 1 -6.50615,-6.50615 6.5061476,6.506147 0 0 1 6.50615,-6.50615 z"
+       inkscape:export-filename="godot\circle_progress_empty.png"
+       inkscape:export-xdpi="95.999962"
+       inkscape:export-ydpi="95.999962" />
+    <g
+       id="g28"
+       style="fill:#364e59"
+       transform="translate(-1.8583618,-16.387372)"
+       inkscape:export-filename="godot\week_progress_empty.png"
+       inkscape:export-xdpi="95.319145"
+       inkscape:export-ydpi="95.319145">
+      <rect
+         style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect21"
+         width="92.604164"
+         height="6.614583"
+         x="-85.822525"
+         y="235.33615"
+         ry="0.66145831"
+         rx="0.66145831" />
+      <rect
+         style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect22"
+         width="13.229166"
+         height="6.614583"
+         x="-85.822525"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect23"
+         width="13.229166"
+         height="6.614583"
+         x="-72.593361"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect24"
+         width="13.229166"
+         height="6.614583"
+         x="-59.364193"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect25"
+         width="13.229166"
+         height="6.614583"
+         x="-46.135025"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect26"
+         width="13.229166"
+         height="6.614583"
+         x="-32.905861"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect27"
+         width="13.229166"
+         height="6.614583"
+         x="-19.676693"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect28"
+         width="13.229166"
+         height="6.614583"
+         x="-6.4475269"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+    </g>
+    <g
+       id="g36"
+       style="fill:#b50000"
+       transform="translate(-1.8583618,-1.5560179)"
+       inkscape:export-filename="godot\week_progress_full.png"
+       inkscape:export-xdpi="95.319145"
+       inkscape:export-ydpi="95.319145">
+      <rect
+         style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect29"
+         width="92.604164"
+         height="6.614583"
+         x="-85.822525"
+         y="235.33615"
+         ry="0.66145831"
+         rx="0.66145831" />
+      <rect
+         style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect30"
+         width="13.229166"
+         height="6.614583"
+         x="-85.822525"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect31"
+         width="13.229166"
+         height="6.614583"
+         x="-72.593361"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect32"
+         width="13.229166"
+         height="6.614583"
+         x="-59.364193"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect33"
+         width="13.229166"
+         height="6.614583"
+         x="-46.135025"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect34"
+         width="13.229166"
+         height="6.614583"
+         x="-32.905861"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect35"
+         width="13.229166"
+         height="6.614583"
+         x="-19.676693"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+      <rect
+         style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect36"
+         width="13.229166"
+         height="6.614583"
+         x="-6.4475269"
+         y="235.33615"
+         rx="0.66145831"
+         ry="0.66145831" />
+    </g>
+    <rect
+       style="fill:#b50000;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect37"
+       width="92.604164"
+       height="3.96875"
+       x="16.724403"
+       y="235.10304"
+       rx="0.66145831"
+       ry="0.66145831"
+       inkscape:export-filename="godot\month_progress_full.png"
+       inkscape:export-xdpi="95.319145"
+       inkscape:export-ydpi="95.319145" />
+    <rect
+       style="fill:#364e59;stroke:#0e232e;stroke-width:0.661458;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect38"
+       width="92.604164"
+       height="3.96875"
+       x="16.724403"
+       y="220.2717"
+       rx="0.66145831"
+       ry="0.66145831"
+       inkscape:export-filename="godot\month_progress_empty.png"
+       inkscape:export-xdpi="95.319145"
+       inkscape:export-ydpi="95.319145" />
   </g>
 </svg>

@@ -1,6 +1,12 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://circle_progress_empty.png" type="Texture" id=2]
+[ext_resource path="res://circle_progress_full.png" type="Texture" id=3]
+[ext_resource path="res://week_progress_full.png" type="Texture" id=4]
+[ext_resource path="res://week_progress_empty.png" type="Texture" id=5]
+[ext_resource path="res://month_progress_empty.png" type="Texture" id=6]
+[ext_resource path="res://month_progress_full.png" type="Texture" id=7]
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
@@ -10,5 +16,53 @@ script = ExtResource( 1 )
 [node name="Timer" type="Timer" parent="."]
 wait_time = 60.0
 autostart = true
+
+[node name="Stack" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 5.0
+margin_bottom = 152.0
+size_flags_vertical = 0
+
+[node name="Week" type="TextureProgress" parent="Stack"]
+margin_left = 5.0
+margin_right = 355.0
+margin_bottom = 27.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+max_value = 7.0
+value = 1.0
+texture_under = ExtResource( 5 )
+texture_progress = ExtResource( 4 )
+
+[node name="Minute" type="TextureProgress" parent="Stack"]
+margin_left = 30.0
+margin_top = 31.0
+margin_right = 330.0
+margin_bottom = 331.0
+grow_horizontal = 2
+grow_vertical = 2
+rect_min_size = Vector2( 150, 150 )
+size_flags_horizontal = 4
+size_flags_vertical = 4
+max_value = 60.0
+texture_under = ExtResource( 2 )
+texture_progress = ExtResource( 3 )
+fill_mode = 4
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Day" type="TextureProgress" parent="Stack"]
+margin_left = 5.0
+margin_top = 335.0
+margin_right = 355.0
+margin_bottom = 352.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+max_value = 30.0
+allow_greater = true
+texture_under = ExtResource( 6 )
+texture_progress = ExtResource( 7 )
 
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

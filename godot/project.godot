@@ -16,13 +16,12 @@ config/icon="res://icon.png"
 
 [display]
 
-window/size/width=400
-window/size/height=200
+window/size/width=360
+window/size/height=215
 window/size/resizable=false
-window/size/borderless=true
 window/size/always_on_top=true
-window/size/test_width=400
-window/size/test_height=200
+window/size/test_width=360
+window/size/test_height=215
 window/per_pixel_transparency/allowed=true
 window/per_pixel_transparency/enabled=true
 
@@ -36,4 +35,5 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
+environment/default_clear_color=Color( 0, 0, 0, 0 )
 environment/default_environment="res://default_env.tres"
