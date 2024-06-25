@@ -1,5 +1,7 @@
 # Extra ignores
 message.md
+**.import/
+**.import
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
