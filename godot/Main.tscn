@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Main.gd" type="Script" id=1]
 [ext_resource path="res://circle_progress_empty.png" type="Texture" id=2]
@@ -7,6 +7,16 @@
 [ext_resource path="res://week_progress_empty.png" type="Texture" id=5]
 [ext_resource path="res://month_progress_empty.png" type="Texture" id=6]
 [ext_resource path="res://month_progress_full.png" type="Texture" id=7]
+
+[sub_resource type="DynamicFontData" id=1]
+antialiased = false
+font_path = "res://pixel_emulator.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+outline_color = Color( 0.709804, 0, 0, 1 )
+use_mipmaps = true
+font_data = SubResource( 1 )
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
@@ -52,6 +62,16 @@ fill_mode = 4
 __meta__ = {
 "_edit_use_anchors_": true
 }
+
+[node name="Hour" type="Label" parent="Stack/Minute"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_colors/font_color = Color( 0.709804, 0, 0, 1 )
+custom_fonts/font = SubResource( 2 )
+text = "12"
+align = 1
+valign = 1
+uppercase = true
 
 [node name="Day" type="TextureProgress" parent="Stack"]
 margin_left = 5.0

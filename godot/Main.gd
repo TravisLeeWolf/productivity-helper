@@ -9,19 +9,25 @@ func _ready() -> void:
 	today = Time.get_date_dict_from_system()
 	print(today)
 	update_weekday_view(get_week())
-	update_minute_view(get_minute())
+	update_time_views(get_time())
 	update_day_view(get_day())
 	
 
-func get_minute() -> int:
+func get_time() -> Array:
 	var time = Time.get_time_string_from_system().split(":")
-	return int(time[1])
+	return time
 	
-func update_minute_view(minute) -> void:
-	$Stack/Minute.value = minute
+func update_time_views(time) -> void:
+	var hour
+	if int(time[0]) > 12:
+		hour = int(time[0]) - 12
+	else:
+		hour = time[0]
+	$Stack/Minute/Hour.text = str(hour)
+	$Stack/Minute.value = int(time[1])
 
 func _on_Timer_timeout() -> void:
-	update_minute_view(get_minute())
+	update_time_views(get_time())
 	
 func get_week() -> int:
 	return today.weekday
