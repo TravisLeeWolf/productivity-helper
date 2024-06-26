@@ -36,10 +36,10 @@ texture_under = ExtResource( 5 )
 texture_progress = ExtResource( 4 )
 
 [node name="Minute" type="TextureProgress" parent="Stack"]
-margin_left = 30.0
+margin_left = 105.0
 margin_top = 31.0
-margin_right = 330.0
-margin_bottom = 331.0
+margin_right = 255.0
+margin_bottom = 181.0
 grow_horizontal = 2
 grow_vertical = 2
 rect_min_size = Vector2( 150, 150 )
@@ -55,9 +55,9 @@ __meta__ = {
 
 [node name="Day" type="TextureProgress" parent="Stack"]
 margin_left = 5.0
-margin_top = 335.0
+margin_top = 185.0
 margin_right = 355.0
-margin_bottom = 352.0
+margin_bottom = 202.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 max_value = 30.0
