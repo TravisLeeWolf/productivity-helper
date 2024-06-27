@@ -1,0 +1,150 @@
+[gd_scene load_steps=13 format=3 uid="uid://icekh7b04jyq"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_wuyna"]
+[ext_resource type="Texture2D" uid="uid://ddngk3vdl4ek1" path="res://progress_bars/donut/donut_bottom.svg" id="2_s6ny3"]
+[ext_resource type="Texture2D" uid="uid://dnx68yyq6l2td" path="res://progress_bars/donut/donut_top.svg" id="3_2mq33"]
+[ext_resource type="Texture2D" uid="uid://h7knry2uc2" path="res://progress_bars/donut/donut_progress.svg" id="4_ujtn2"]
+[ext_resource type="Texture2D" uid="uid://cmje5wcbpde4u" path="res://progress_bars/blocks/block_bottom.svg" id="5_mjw7y"]
+[ext_resource type="FontFile" uid="uid://bjl1hm5ootmdo" path="res://font/pixel_emulator.ttf" id="5_yqfsy"]
+[ext_resource type="Texture2D" uid="uid://d3evlxda0211q" path="res://progress_bars/blocks/block_top.svg" id="6_alns2"]
+[ext_resource type="Texture2D" uid="uid://6ggivvee51rk" path="res://progress_bars/blocks/block_progress.svg" id="7_eqb5l"]
+[ext_resource type="Texture2D" uid="uid://bq6mnw610sp5u" path="res://progress_bars/vertical/vertical_bottom.svg" id="8_elgmi"]
+[ext_resource type="Texture2D" uid="uid://bk83uxvfrw464" path="res://progress_bars/vertical/vertical_top.svg" id="9_haa34"]
+[ext_resource type="Theme" uid="uid://droh70lhoj434" path="res://font/red_outline_label.tres" id="9_pbjrt"]
+[ext_resource type="Texture2D" uid="uid://brin2m88aet0b" path="res://progress_bars/vertical/vertical_progress.svg" id="10_c07ke"]
+
+[node name="Main" type="Control"]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wuyna")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 60.0
+autostart = true
+
+[node name="Grid" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 5
+
+[node name="MinuteBar" type="TextureProgressBar" parent="Grid"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 2
+max_value = 60.0
+fill_mode = 4
+texture_under = ExtResource("2_s6ny3")
+texture_over = ExtResource("3_2mq33")
+texture_progress = ExtResource("4_ujtn2")
+tint_progress = Color(0.709804, 0, 0, 1)
+
+[node name="HourText" type="Label" parent="Grid/MinuteBar"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.709804, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0.054902, 0.137255, 0.180392, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("5_yqfsy")
+theme_override_font_sizes/font_size = 70
+text = "12"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="WeekBlock" type="TextureProgressBar" parent="Grid"]
+layout_mode = 2
+size_flags_horizontal = 6
+size_flags_vertical = 2
+max_value = 7.0
+fill_mode = 2
+texture_under = ExtResource("5_mjw7y")
+texture_over = ExtResource("6_alns2")
+texture_progress = ExtResource("7_eqb5l")
+tint_progress = Color(0.709804, 0, 0, 1)
+
+[node name="WeekBox" type="MarginContainer" parent="Grid"]
+custom_minimum_size = Vector2(0, 225)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+
+[node name="GC" type="GridContainer" parent="Grid/WeekBox"]
+layout_mode = 2
+
+[node name="Monday" type="Label" parent="Grid/WeekBox/GC"]
+layout_mode = 2
+size_flags_vertical = 2
+theme = ExtResource("9_pbjrt")
+text = "Mon"
+
+[node name="Tuesday" type="Label" parent="Grid/WeekBox/GC"]
+layout_mode = 2
+size_flags_vertical = 2
+theme = ExtResource("9_pbjrt")
+text = "Tue"
+
+[node name="Wednesday" type="Label" parent="Grid/WeekBox/GC"]
+layout_mode = 2
+size_flags_vertical = 2
+theme = ExtResource("9_pbjrt")
+text = "Wed"
+
+[node name="Thursday" type="Label" parent="Grid/WeekBox/GC"]
+layout_mode = 2
+size_flags_vertical = 2
+theme = ExtResource("9_pbjrt")
+text = "Thu"
+
+[node name="Friday" type="Label" parent="Grid/WeekBox/GC"]
+layout_mode = 2
+size_flags_vertical = 2
+theme = ExtResource("9_pbjrt")
+text = "Fri"
+
+[node name="Saturday" type="Label" parent="Grid/WeekBox/GC"]
+layout_mode = 2
+size_flags_vertical = 2
+theme = ExtResource("9_pbjrt")
+text = "Sat"
+
+[node name="Sunday" type="Label" parent="Grid/WeekBox/GC"]
+layout_mode = 2
+size_flags_vertical = 2
+theme = ExtResource("9_pbjrt")
+text = "Sun"
+
+[node name="MonthBar" type="TextureProgressBar" parent="Grid"]
+layout_mode = 2
+size_flags_horizontal = 10
+size_flags_vertical = 2
+max_value = 30.0
+fill_mode = 2
+texture_under = ExtResource("8_elgmi")
+texture_over = ExtResource("9_haa34")
+texture_progress = ExtResource("10_c07ke")
+tint_progress = Color(0.709804, 0, 0, 1)
+
+[node name="Days" type="Label" parent="Grid"]
+custom_minimum_size = Vector2(15, 1)
+layout_mode = 2
+size_flags_horizontal = 0
+theme = ExtResource("9_pbjrt")
+text = "25"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 1
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
