@@ -44,8 +44,8 @@ func update_time() -> void:
 		$Grid/MinuteBar/HourText.text = "12"
 		update_date()
 	else:
-		$Grid/MinuteBar.value = minute
 		$Grid/MinuteBar/HourText.text = str(hour)
+	$Grid/MinuteBar.value = minute
 
 func _on_timer_timeout():
 	update_time()
