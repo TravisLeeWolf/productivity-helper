@@ -4,6 +4,7 @@ var today
 
 func _ready():
 	today = get_date()
+	print(get_time())
 	update_time()
 	update_date()
 	
@@ -40,6 +41,7 @@ func update_time() -> void:
 	var hour = get_time().hour
 	if hour > 12:
 		hour = hour - 12
+		$Grid/MinuteBar/HourText.text = str(hour)
 	elif hour == 0:
 		$Grid/MinuteBar/HourText.text = "12"
 		update_date()
